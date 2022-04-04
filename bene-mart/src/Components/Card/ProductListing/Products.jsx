@@ -13,16 +13,14 @@ const Products = () => {
   }, []);
   console.log(products);
   return (
-    <div className="page-section">
-      <div>
-        <h2 className="section-title uppercase">Best Deals</h2>
+    <div className="page-section ff-open-sans ">
+      <h2 className="section-title uppercase ">Best Deals</h2>
 
-        <div className="product-card">
-          {products?.length &&
-            products.map((product) => {
-              return <ProductCart product={product} key={product._id} />;
-            })}
-        </div>
+      <div className="product-card ">
+        {products?.length &&
+          products.map((product) => {
+            return <ProductCart product={product} key={product._id} />;
+          })}
       </div>
     </div>
   );

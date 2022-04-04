@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer ff-open-sans">
       <Container>
         <Row>
           <Col>
