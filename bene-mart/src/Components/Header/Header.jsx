@@ -8,7 +8,6 @@ const Header = () => {
           <Link to="#signin" className="nav-link">
             Sign In
           </Link>
-
           <Link to="#signup" className="nav-link">
             Create an Account
           </Link>
