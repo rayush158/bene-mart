@@ -15,7 +15,7 @@ const Categories = () => {
   }, []);
   return (
     <div className="page-section">
-      <div className="page-content-inner">
+      <div className="page-content-inner ">
         <div className="section-title uppercase ">
           <h2>Categories</h2>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./../../darkLogo.png";
+import logo from "./../../assets/darkLogo.png";
 import { Link } from "react-router-dom";
 import { Container, Navbar, Nav, Form, FormControl } from "react-bootstrap";
 import { FaShoppingCart, FaHeart, FaSearch } from "react-icons/fa";
